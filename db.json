@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Milliy taomlar"
+    },
+    {
+      "id": 2,
+      "name": "Fast Food"
+    },
+    {
+      "id": 3,
+      "name": "Ichimliklar"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "K-01",
+      "name": "Osh",
+      "price": 16000,
+      "is_ready": true,
+      "img": "osh.jpg",
+      "category": {
+        "id": 1,
+        "name": "Milliy taomlar"
+      }
+    },
+    {
+      "id": 2,
+      "code": "K-02",
+      "name": "Mastava",
+      "price": 14000,
+      "is_ready": true,
+      "img": "mastava.jpg",
+      "category": {
+        "id": 1,
+        "name": "Milliy taomlar"
+      }
+    },
+    {
+      "id": 3,
+      "code": "K-03",
+      "name": "Qozon Kabob",
+      "price": 12000,
+      "is_ready": true,
+      "img": "qozon kabob.jpg",
+      "category": {
+        "id": 1,
+        "name": "Milliy taomlar"
+      }
+    },
+    {
+      "id": 4,
+      "code": "K-04",
+      "name": "Dimlama",
+      "price": 15000,
+      "is_ready": true,
+      "img": "dimlama.jpg",
+      "category": {
+        "id": 1,
+        "name": "Milliy taomlar"
+      }
+    },
+    {
+      "id": 5,
+      "code": "K-05",
+      "name": "Hot Dog",
+      "price": 12000,
+      "is_ready": true,
+      "img": "hot dog.jpg",
+      "category": {
+        "id": 2,
+        "name": "Fast Food"
+      }
+    },
+    {
+      "id": 6,
+      "code": "K-06",
+      "name": "Gamburger",
+      "price": 15000,
+      "is_ready": true,
+      "img": "gamburger.jpg",
+      "category": {
+        "id": 2,
+        "name": "Fast Food"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "quantity": 2,
+      "total_price": 32000,
+      "product": {
+        "id": 1,
+        "code": "K-01",
+        "name": "Osh",
+        "price": 16000,
+        "is_ready": true,
+        "img": "osh.jpg",
+        "category": {
+          "id": 1,
+          "name": "Milliy taomlar"
+        }
+      },
+      "id": 1
+    },
+    {
+      "quantity": 2,
+      "total_price": 28000,
+      "product": {
+        "id": 2,
+        "code": "K-02",
+        "name": "Mastava",
+        "price": 14000,
+        "is_ready": true,
+        "img": "mastava.jpg",
+        "category": {
+          "id": 1,
+          "name": "Milliy taomlar"
+        }
+      },
+      "id": 2
+    }
+  ]
+}
